@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# PopX React Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built as a response to the Educase India assignment. It features responsive welcome, signup, sign-in, and profile dashboard screens designed for mobile frame layouts.
+
+## 🚀 Live Deployment
+Check out the live version of the app here: **[https://assignment-educase-india-chi.vercel.app/](https://assignment-educase-india-chi.vercel.app/)**
+
+---
 
 ## Available Scripts
 
