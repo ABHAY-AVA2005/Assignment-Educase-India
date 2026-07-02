@@ -44,7 +44,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 30px 20px 24px 20px;
+  padding: 24px 20px 20px 20px;
   background-color: #F8F9FA;
   overflow-y: auto;
   position: relative;
@@ -67,34 +67,34 @@ body {
 
 /* Headings */
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 34px;
+  line-height: 30px;
   color: #1D2229;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   letter-spacing: -0.5px;
 }
 
 p.subtitle {
-  font-size: 15px;
+  font-size: 14px;
   color: #8F92A1;
-  line-height: 22px;
-  margin-bottom: 30px;
+  line-height: 20px;
+  margin-bottom: 24px;
 }
 
 /* Floating Label Form Fields */
 .input-group {
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .input-group input {
   width: 100%;
-  height: 56px;
+  height: 48px;
   border: 1px solid #CBCBCB;
-  border-radius: 12px;
-  padding: 16px;
-  font-size: 15px;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 14px;
   color: #1D2229;
   background: #F8F9FA;
   outline: none;
@@ -110,13 +110,13 @@ p.subtitle {
 
 .input-group label {
   position: absolute;
-  left: 16px;
+  left: 14px;
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
   padding: 0 4px;
   color: #8F92A1;
-  font-size: 15px;
+  font-size: 14px;
   pointer-events: none;
   transition: all 0.2s ease-in-out;
 }
@@ -125,7 +125,7 @@ p.subtitle {
 .input-group input:focus ~ label,
 .input-group input:not(:placeholder-shown) ~ label {
   top: 0;
-  transform: translateY(-50%) scale(0.85);
+  transform: translateY(-50%) scale(0.8);
   transform-origin: left top;
   color: #6C25E9;
   background: #FFFFFF;
@@ -142,10 +142,10 @@ p.subtitle {
 .btn {
   display: block;
   width: 100%;
-  height: 56px;
+  height: 48px;
   border: none;
-  border-radius: 12px;
-  font-size: 16px;
+  border-radius: 10px;
+  font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   display: flex;
@@ -190,7 +190,7 @@ p.subtitle {
 .radio-group {
   display: flex;
   gap: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .radio-label {
@@ -279,13 +279,13 @@ p.subtitle {
 
 .avatar-wrapper {
   position: relative;
-  width: 76px;
-  height: 76px;
+  width: 64px;
+  height: 64px;
 }
 
 .profile-avatar {
-  width: 76px;
-  height: 76px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   object-fit: cover;
   background: #ECECEC;
